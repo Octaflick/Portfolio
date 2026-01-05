@@ -39,6 +39,9 @@ h6{
 h6.dur{
     color: #fff7d1ba;
 }
+p{
+    font-size: 1.1rem;
+}
 a{
     text-decoration: none;
     color: #5af7ca;
@@ -70,6 +73,7 @@ div.contact a img{
     height: 60px;
     width: 60px;
     padding: 8%;
+    margin: 5px;
 }
 div.profile-photo img#pfp{
     width: 25%;
