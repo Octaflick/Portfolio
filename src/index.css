@@ -5,8 +5,8 @@
     font-family:'Courier New', Courier, monospace;
 }
 body{
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     padding: 1%;
     overflow-x: hidden;
     background: linear-gradient(#8B5DFF,#563A9C);
