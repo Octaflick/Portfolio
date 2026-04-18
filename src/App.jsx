@@ -1,14 +1,16 @@
 import { useState, useEffect } from "react";
-import DisplayPicture from "./components/DisplayPicture";
+import DisplayHeader from "./components/DisplayHeader";
 import AboutMe from "./components/AboutMe";
 import Education from "./components/Education";
+import Projects from "./components/Projects";
 
 export default function App() {
 	return (
 		<>
-			<DisplayPicture />
+			<DisplayHeader />
       <AboutMe />
       <Education />
+      <Projects/>
 		</>
 	);
 }
