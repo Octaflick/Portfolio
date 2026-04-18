@@ -42,9 +42,14 @@ h6.dur {
 p {
 	font-size: 1.1rem;
 }
-a{
+a {
 	text-decoration: none;
 	color: #5af7ca;
+	transition: 0.1s linear;
+}
+a:hover {
+	transform: translateY(-10%);
+	text-shadow: 1px 1px 10px rgba(0, 252, 202, 0.676);
 }
 a.project-link-github {
 	display: inline-flex;
@@ -53,22 +58,13 @@ a.project-link-github {
 	flex-direction: row;
 }
 a.project-link-github > img {
-	display: inline;
 	height: 1em;
 	width: 1em;
 	margin: 0;
 }
-a.project-link-github:hover {
-	display: inline-flex;
-	transform: translateY(-10%);
-	text-shadow: 1px 1px 10px rgba(0, 252, 202, 0.676);
-	transition: 0.1s linear;
-}
-a:hover {
+/* Make links inside fieldsets behave like project links so hover lift is visible */
+fieldset a {
 	display: inline-block;
-	transform: translateY(-10%);
-	text-shadow: 1px 1px 10px rgba(0, 252, 202, 0.676);
-	transition: 0.1s linear;
 }
 div.project-sub a {
 	padding-left: 3%;
@@ -103,7 +99,7 @@ div.profile-photo img#pfp {
 	transition: 0.3s ease-in-out;
 }
 div.profile-photo img#pfp:hover {
-	transform: scale(110%);
+	transform: scale(1.1);
 	box-shadow: 1px 1px 20px rgb(255, 255, 255);
 }
 div.education-sub {
@@ -132,7 +128,7 @@ div.project-sub {
 }
 div.view-projects {
 	display: flex;
-	justify-content: left;
+	justify-content: flex-start;
 }
 fieldset {
 	border: #fff7d1;
@@ -143,6 +139,6 @@ fieldset {
 	border-radius: 8px;
 }
 fieldset p,
-ul {
+fieldset ul {
 	padding-left: 3%;
 }
