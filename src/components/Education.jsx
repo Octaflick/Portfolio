@@ -12,7 +12,7 @@ export default function Education(){
             <h4>Newton School of Technology</h4>
             <h5>B.Tech in Computer Science(AI&ML)</h5>
             <h6 className="dur">2025-2029</h6>
-            <h6 className="grade">CGPA - 9.14</h6>
+            <h6 className="grade">SGPA - 9.59 | CGPA - 9.31</h6>
         </div>
         </div>
         <div className="education-sub" id="high-school">

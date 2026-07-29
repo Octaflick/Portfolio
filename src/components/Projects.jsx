@@ -5,9 +5,21 @@ export default function Projects() {
 		<div className='projects'>
 			<fieldset>
 				<h3>Projects</h3>
-                <div className='project-sub' id='self-help-diary'>
+				<div className='project-sub' id='textpress'>
+					<h4>TextPress <strong>(WIP)</strong></h4>
+					<p>A CLI-based file compression tool built with Python, supporting Huffman coding and LZ78 dictionary compression.</p>
+					<div className='view-projects'>
+						<a
+							className='project-link-github'
+							href='https://github.com/Octaflick/TextPress'>
+							View on Github
+							<img src={github_Logo} />
+						</a>
+					</div>
+				</div>
+                <div className='project-sub' id='reactified-portfolio'>
 					<h4>Reactified Portfolio <strong>(WIP)</strong></h4>
-					<p>Turned my pure HTML & CSS Portfolio to a React based webpage. Plans to make in immersive and interactive.</p>
+					<p>Turned my pure HTML & CSS Portfolio to a React based webpage. Plans to make it immersive and interactive.</p>
 					<div className='view-projects'>
 						<a
 							className='project-link-live'
@@ -22,7 +34,7 @@ export default function Projects() {
 						</a>
 					</div>
 				</div>
-                <div className='project-sub' id='self-help-diary'>
+                <div className='project-sub' id='truthify'>
 					<h4>Truthify</h4>
 					<p>Group Project on <strong>'AI Misinformation Detector'</strong>. I contributed by handling the <strong>blog section</strong> and <strong>fine-tuning</strong> the agent parameters for consistent and precise output.</p>
 					<div className='view-projects'>
