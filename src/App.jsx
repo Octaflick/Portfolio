@@ -5,6 +5,8 @@ import Education from "./components/Education";
 import Projects from "./components/Projects";
 import CertsAchievements from "./components/CertsAchievements";
 import GitHubContributionGraph from "./components/Github";
+import CodeforcesSubmissionGraph from './components/CodeforcesGraph';
+
 
 export default function App() {
 	return (
@@ -12,6 +14,7 @@ export default function App() {
 			<DisplayHeader />
       <AboutMe />
       <Education />
+	  <CodeforcesSubmissionGraph/>
 	  <GitHubContributionGraph/>
       <Projects/>
       <CertsAchievements/>
