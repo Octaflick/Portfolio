@@ -173,8 +173,18 @@ export default function GitHubContributionGraph({ className = "" }) {
 						<span className='font-semibold'>
 							{contributions.toLocaleString()}
 						</span>{" "}
-						contributions in the last year
-					</h3>
+						github contributions in the last year
+          </h3>
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm">
+            <a
+              href={`https://github.com/OctaFlick`}
+              target="_blank"
+              rel="noreferrer"
+              className="text-amber-50/70 hover:text-amber-50 transition-colors"
+            >
+              @OctaFlick
+            </a>
+          </div>
 				</div>
 
 				<div className='relative overflow-x-auto w-full text-center'>

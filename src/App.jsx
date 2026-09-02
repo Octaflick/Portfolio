@@ -1,4 +1,3 @@
-
 import DisplayHeader from "./components/DisplayHeader";
 import AboutMe from "./components/AboutMe";
 import Education from "./components/Education";
@@ -7,17 +6,16 @@ import CertsAchievements from "./components/CertsAchievements";
 import GitHubContributionGraph from "./components/Github";
 import CombinedCodingContributionGraph from "./components/CombinedCodingGraph";
 
-
 export default function App() {
-	return (
-		<>
-			<DisplayHeader />
+  return (
+    <>
+      <DisplayHeader />
       <AboutMe />
       <Education />
-      <CombinedCodingContributionGraph/>
-	  <GitHubContributionGraph/>
-      <Projects/>
-      <CertsAchievements/>
-		</>
-	);
+      <CombinedCodingContributionGraph />
+      <GitHubContributionGraph />
+      <Projects />
+      <CertsAchievements />
+    </>
+  );
 }
