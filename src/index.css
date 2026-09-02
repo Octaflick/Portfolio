@@ -11,8 +11,7 @@ body {
 	width: 100vw;
 	padding: 1%;
 	overflow-x: hidden;
-	background: linear-gradient(#427AB5, #406AAF);
-	/*background: linear-gradient(#218DAE, #2BBBD7);*/
+	background: linear-gradient(#0f4071, #052648);
 	background-attachment: fixed;
 	color: #fff7d1;
 }
