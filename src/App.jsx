@@ -11,11 +11,11 @@ export default function App() {
     <>
       <DisplayHeader />
       <AboutMe />
-      <Education />
       <CombinedCodingContributionGraph />
       <GitHubContributionGraph />
       <Projects />
       <CertsAchievements />
+      <Education />
     </>
   );
 }
